@@ -86,3 +86,6 @@ pylint.log
 build/
 dist/
 *.egg-info/
+
+
+index.*
