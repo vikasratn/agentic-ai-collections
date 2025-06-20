@@ -26,3 +26,5 @@ rank_bm25
 langchain_chroma
 duckduckgo-search
 yfinance
+langchain_tavily
+weather_api
