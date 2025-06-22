@@ -28,3 +28,5 @@ duckduckgo-search
 yfinance
 langchain_tavily
 weather_api
+langchain_experimental
+matplotlib
