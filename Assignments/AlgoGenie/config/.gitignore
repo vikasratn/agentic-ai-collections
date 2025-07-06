@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Python virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Conda environment files
+*.conda
+*.env
+*.yml
+
+# VSCode settings
+.vscode/
+
+# PyCharm settings
+.idea/
+
+# Test/coverage tools
+.coverage
+.cache
+.nox/
+tox/
+pytest_cache/
+
+# Model artifacts
+*.ckpt
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.tflite
+*.onnx
+runs/
+logs/
+lightning_logs/
+wandb/
+
+# Dataset cache
+*.csv
+*.tsv
+*.zip
+*.tar.gz
+*.npz
+*.npy
+dataset/
+data/
+data_cache/
+.DS_Store
+
+# Hugging Face transformers cache
+~/.cache/
+*.jsonl
+
+# Environment and credentials
+.env
+*.pem
+*.key
+*.crt
+*.token
+credentials/
+secrets/
+config.json
+
+# MyPy and Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+pylint-report.txt
+pylint.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+
+index.*
