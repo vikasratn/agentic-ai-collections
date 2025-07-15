@@ -2,7 +2,7 @@ import os
 from dotenv import load_dotenv
 from typing import Literal, Optional, Any
 from pydantic import BaseModel, Field
-from utils.config_loader import ConfigLoader
+from util.config_loader import ConfigLoader
 from langchain_groq import ChatGroq
 from langchain_openai import ChatOpenAI
 
@@ -24,7 +24,7 @@ class ModelLoader(BaseModel):
         print("LLM loading...")
         provider = self.model_provider.lower()
         print(f"Loading model from provider: {provider}")
-
+        load_dotenv()
         if provider == "groq":
             api_key = os.getenv("GROQ_API_KEY")
             model_name = self.config["llm"]["groq"]["model_name"]

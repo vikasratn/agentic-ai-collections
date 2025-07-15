@@ -1,6 +1,7 @@
 dotenv
 pydantic
 langchain
+langgraph
 langchain_groq
 langchain_openai
 

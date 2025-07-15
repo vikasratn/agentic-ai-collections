@@ -19,7 +19,7 @@ def get_requirements() -> List[str]:
         return []
 
 setup(
-    name="AI-TRAVEL-PLANNER",
+    name="Multi-Agent-2-Agent_Analyst",
     version="0.0.1",
     author="V Ratn",
     author_email="vratn@gmail.com",
